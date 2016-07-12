@@ -21,14 +21,14 @@ limitations under the License.
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <artifactId>chef</artifactId>
-    <groupId>org.apache.jclouds.karaf</groupId>
-    <version>1.9.3-SNAPSHOT</version>
+    <groupId>io.cloudsoft.jclouds.karaf</groupId>
+    <version>1.9.2-alpha.20160712</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.apache.jclouds.karaf.chef</groupId>
+  <groupId>io.cloudsoft.jclouds.karaf.chef</groupId>
   <artifactId>cache</artifactId>
-  <version>1.9.3-SNAPSHOT</version>
+  <version>1.9.2-alpha.20160712</version>
   <packaging>bundle</packaging>
   <name>jclouds :: Karaf :: Chef :: Cache</name>
 
@@ -55,11 +55,11 @@ limitations under the License.
       <artifactId>org.osgi.compendium</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.apache.jclouds.karaf</groupId>
+      <groupId>io.cloudsoft.jclouds.karaf</groupId>
       <artifactId>cache</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.apache.jclouds.api</groupId>
+      <groupId>io.cloudsoft.jclouds.api</groupId>
       <artifactId>chef</artifactId>
     </dependency>
     <dependency>
