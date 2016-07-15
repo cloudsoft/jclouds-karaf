@@ -21,15 +21,15 @@ limitations under the License.
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <artifactId>jclouds-karaf</artifactId>
-    <groupId>org.apache.jclouds</groupId>
-    <version>1.9.3-SNAPSHOT</version>
+    <groupId>io.cloudsoft.jclouds</groupId>
+    <version>1.9.3-cloudsoft.20160714</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.apache.jclouds.karaf</groupId>
+  <groupId>io.cloudsoft.jclouds.karaf</groupId>
   <artifactId>chef</artifactId>
   <packaging>pom</packaging>
-  <version>1.9.3-SNAPSHOT</version>
+  <version>1.9.3-cloudsoft.20160714</version>
   <name>jclouds :: Karaf :: Chef</name>
 
   <modules>

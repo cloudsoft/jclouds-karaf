@@ -19,12 +19,12 @@ limitations under the License.
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <artifactId>jclouds-karaf</artifactId>
-    <groupId>org.apache.jclouds</groupId>
-    <version>1.9.3-SNAPSHOT</version>
+    <groupId>io.cloudsoft.jclouds</groupId>
+    <version>1.9.3-cloudsoft.20160714</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.apache.jclouds.karaf</groupId>
+  <groupId>io.cloudsoft.jclouds.karaf</groupId>
   <artifactId>urlhandler</artifactId>
   <packaging>bundle</packaging>
   <name>jclouds :: Karaf :: URL Handler</name>
@@ -39,12 +39,12 @@ limitations under the License.
 
   <dependencies>
     <dependency>
-      <groupId>org.apache.jclouds.karaf</groupId>
+      <groupId>io.cloudsoft.jclouds.karaf</groupId>
       <artifactId>utils</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.apache.jclouds</groupId>
+      <groupId>io.cloudsoft.jclouds</groupId>
       <artifactId>jclouds-blobstore</artifactId>
     </dependency>
     <dependency>
