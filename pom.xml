@@ -24,10 +24,10 @@ limitations under the License.
     <version>14</version>
   </parent>
 
-  <groupId>org.apache.jclouds</groupId>
+  <groupId>io.cloudsoft.jclouds</groupId>
   <artifactId>jclouds-karaf</artifactId>
   <packaging>pom</packaging>
-  <version>1.9.3-SNAPSHOT</version>
+  <version>1.9.3-cloudsoft.20160725</version>
   <name>Apache jclouds :: Karaf</name>
   <url>http://jclouds.apache.org</url>
   <description>jclouds Karaf Integration Project</description>
@@ -45,7 +45,7 @@ limitations under the License.
     <connection>scm:git:https://git-wip-us.apache.org/repos/asf/jclouds-karaf.git</connection>
     <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/jclouds-karaf.git</developerConnection>
     <url>https://git-wip-us.apache.org/repos/asf?p=jclouds-karaf.git</url>
-    <tag>HEAD</tag>
+    <tag>rel/jclouds-karaf-1.9.3-cloudsoft.20160725</tag>
   </scm>
 
   <developers>
@@ -195,7 +195,7 @@ limitations under the License.
     <httpcore.version>4.1</httpcore.version>
     <java-xmlbuilder.bundle.version>0.3_1</java-xmlbuilder.bundle.version>
     <javax.inject.bundle.version>1_1</javax.inject.bundle.version>
-    <jclouds.version>1.9.3-SNAPSHOT</jclouds.version>
+    <jclouds.version>1.9.3-cloudsoft.20160725</jclouds.version>
     <jclouds.chef.version>${jclouds.version}</jclouds.chef.version>
     <jersey.version>1.11</jersey.version>
     <jersey.bundle.version>1.11_1</jersey.bundle.version>
@@ -240,53 +240,53 @@ limitations under the License.
     <dependencies>
       <!-- Internal dependencies -->
       <dependency>
-        <groupId>org.apache.jclouds.karaf</groupId>
+        <groupId>io.cloudsoft.jclouds.karaf</groupId>
         <artifactId>core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds.karaf</groupId>
+        <groupId>io.cloudsoft.jclouds.karaf</groupId>
         <artifactId>utils</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds.karaf</groupId>
+        <groupId>io.cloudsoft.jclouds.karaf</groupId>
         <artifactId>recipe</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds.karaf</groupId>
+        <groupId>io.cloudsoft.jclouds.karaf</groupId>
         <artifactId>cache</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds.karaf</groupId>
+        <groupId>io.cloudsoft.jclouds.karaf</groupId>
         <artifactId>services</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds.karaf</groupId>
+        <groupId>io.cloudsoft.jclouds.karaf</groupId>
         <artifactId>commands</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds.karaf.chef</groupId>
+        <groupId>io.cloudsoft.jclouds.karaf.chef</groupId>
         <artifactId>core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds.karaf.chef</groupId>
+        <groupId>io.cloudsoft.jclouds.karaf.chef</groupId>
         <artifactId>services</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds.karaf.chef</groupId>
+        <groupId>io.cloudsoft.jclouds.karaf.chef</groupId>
         <artifactId>commands</artifactId>
         <version>${project.version}</version>
       </dependency>
 
       <dependency>
-        <groupId>org.apache.jclouds.karaf</groupId>
+        <groupId>io.cloudsoft.jclouds.karaf</groupId>
         <artifactId>jclouds-karaf</artifactId>
         <version>${project.version}</version>
         <type>xml</type>
@@ -500,52 +500,52 @@ limitations under the License.
 
       <!-- jclouds Dependencies -->
       <dependency>
-        <groupId>org.apache.jclouds</groupId>
+        <groupId>io.cloudsoft.jclouds</groupId>
         <artifactId>jclouds-core</artifactId>
         <version>${jclouds.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds</groupId>
+        <groupId>io.cloudsoft.jclouds</groupId>
         <artifactId>jclouds-blobstore</artifactId>
         <version>${jclouds.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds</groupId>
+        <groupId>io.cloudsoft.jclouds</groupId>
         <artifactId>jclouds-compute</artifactId>
         <version>${jclouds.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds</groupId>
+        <groupId>io.cloudsoft.jclouds</groupId>
         <artifactId>jclouds-scriptbuilder</artifactId>
         <version>${jclouds.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds.api</groupId>
+        <groupId>io.cloudsoft.jclouds.api</groupId>
         <artifactId>ec2</artifactId>
         <version>${jclouds.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds.driver</groupId>
+        <groupId>io.cloudsoft.jclouds.driver</groupId>
         <artifactId>jclouds-log4j</artifactId>
         <version>${jclouds.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds.driver</groupId>
+        <groupId>io.cloudsoft.jclouds.driver</groupId>
         <artifactId>jclouds-slf4j</artifactId>
         <version>${jclouds.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds.driver</groupId>
+        <groupId>io.cloudsoft.jclouds.driver</groupId>
         <artifactId>jclouds-jsch</artifactId>
         <version>${jclouds.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds.driver</groupId>
+        <groupId>io.cloudsoft.jclouds.driver</groupId>
         <artifactId>jclouds-sshj</artifactId>
         <version>${jclouds.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.jclouds.api</groupId>
+        <groupId>io.cloudsoft.jclouds.api</groupId>
         <artifactId>chef</artifactId>
         <version>${jclouds.chef.version}</version>
       </dependency>
